@@ -1,3 +1,0 @@
-/home/9052722/GW/semtest/build/CMakeFiles/rebuild_cache.dir
-/home/9052722/GW/semtest/build/CMakeFiles/edit_cache.dir
-/home/9052722/GW/semtest/build/CMakeFiles/main.dir
