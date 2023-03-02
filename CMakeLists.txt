@@ -18,4 +18,4 @@ project(test_cmake CXX)
 add_executable(main main.cpp)
 
 # link setting
-#target_link_libraries(test.o dynamiclib)
+target_link_libraries(main pthread)

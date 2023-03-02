@@ -13,11 +13,11 @@ void DeleteSem(sem_t **ct, std::string name);
 int main(){
 	sem_t **ppct;
 	sem_t *pct;
-	sem_t ct = (sem_t)1;
+	sem_t ct = {0};
 
 	sem_t **ppct2;
 	sem_t *pct2;
-	sem_t ct2 = (sem_t)1;
+	sem_t ct2 = {0};
 
 	pct = &ct;
 	ppct = &pct;
