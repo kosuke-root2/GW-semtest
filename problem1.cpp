@@ -19,18 +19,11 @@ int main(){
 	sem_t *pct2;
 	sem_t ct2 = {0};
 
-	sem_t **ppct3;
-	sem_t *pct3;
-	sem_t ct3 = {0};
-
 	pct = &ct;
 	ppct = &pct;
 
 	pct2 = &ct2;
 	ppct2 = &pct2;
-
-	pct3 = &ct3;
-	ppct3 = &pct3;
 
 	int *semvalue;
 	int tmp = 0;
@@ -66,11 +59,7 @@ int main(){
 
 #endif
 	DeleteSem(ppct, semname1);
-
-	CreateSem(ppct3, semname1);
-
-	DeleteSem(ppct2, semname1);
-	DeleteSem(ppct3, semname1);
+	DeleteSem(ppct, semname1);
 
 	return 0;
 }
